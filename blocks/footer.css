@@ -1,0 +1,31 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__copyright {
+  max-width: 166px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  white-space: nowrap;
+  padding: 92px 558px 24px 556px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 544px) {
+  .footer__copyright {
+    padding: 24px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+    padding: 48px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,7 @@
+.nav__logo {
+  display: flex;
+  max-width: 254px;
+  height: 70px;
+  margin: 34px auto 0 auto;
+  object-fit: cover;
+}
