@@ -30,7 +30,7 @@
   text-align: right;
 }
 
-.content__final__text {
+.content__final-text {
   color: #ffffff;
   max-width: 722px;
   font-weight: 400;
@@ -50,7 +50,7 @@
 
   .content__text,
   .content__author,
-  .content__final__text {
+  .content__final-text {
     width: 100%;
     font-size: 16px;
   }
@@ -68,7 +68,7 @@
 
   .content__text,
   .content__author,
-  .content__final__text {
+  .content__final-text {
     width: 100%;
     font-size: 20px;
   }
