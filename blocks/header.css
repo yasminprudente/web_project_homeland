@@ -32,24 +32,7 @@
   max-width: 984px;
   height: 615px;
   object-fit: cover;
-}
-
-@media screen and (max-width: 544px) {
-  .header__title {
-    font-size: 48px;
-    width: 100%;
-  }
-
-  .header__description {
-    font-size: 18px;
-    width: 100%;
-  }
-
-  .header__image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
+  box-shadow: 10px 10px 10px 0px #00000040;
 }
 
 @media screen and (max-width: 1024px) {
@@ -60,6 +43,24 @@
 
   .header__description {
     font-size: 24px;
+    width: 100%;
+  }
+
+  .header__image {
+    width: 768px;
+    height: 480px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .header__title {
+    font-size: 48px;
+    width: 100%;
+  }
+
+  .header__description {
+    font-size: 18px;
     width: 100%;
   }
 
